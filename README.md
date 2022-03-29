@@ -28,7 +28,7 @@ $ python main.py --simulation an_bn_cn -n 16
 
 * All simulations are available in `simulations.py`
 
-* Output networks are saved to the `networks` sub-directory. Visual representations of the networks are saved to `dot_files` in `dot` format.
+* Final and intermediate solutions are saved to the `networks` sub-directory, both as `pickle` and in visual `dot` format.
 
 
 ## Parallelization
