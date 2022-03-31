@@ -4,11 +4,7 @@ import unittest
 
 import numpy as np
 
-import configuration
-import corpora
-import genetic_algorithm
-import network
-import utils
+from mdlrnn import configuration, corpora, genetic_algorithm, network, utils
 
 utils.setup_logging()
 _TEST_CONFIG = configuration.SimulationConfig(
