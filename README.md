@@ -5,10 +5,9 @@
 ![code style](https://img.shields.io/badge/code_style-Black-black) 
 [![arXiv](https://img.shields.io/badge/arXiv-2111.00600-b31b1b.svg)](https://arxiv.org/abs/2111.00600)
 
+Code for [Minimum Description Length Recurrent Neural Networks](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00489/112499/Minimum-Description-Length-Recurrent-Neural) by Nur Lan, Michal Geyer, Emmanuel Chemla, and Roni Katzir.
 
-Code for [Minimum Description Length Recurrent Neural Networks](https://arxiv.org/abs/2111.00600) by Nur Lan, Michal Geyer, Emmanuel Chemla, and Roni Katzir.
-
-Paper: https://arxiv.org/abs/2111.00600
+Paper: https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00489/
 
 <img src="assets/anbncn.png" width="390" style="margin: 15px 0 5px 0"> 
 
