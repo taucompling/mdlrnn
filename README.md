@@ -1,7 +1,7 @@
 # Minimum Description Length Recurrent Neural Networks
 
 ![license](https://img.shields.io/badge/python-3.7_|_3.8_|_3.9-blue)
-![license](https://img.shields.io/badge/license-GNU-green)
+![license](https://img.shields.io/badge/license-MIT-green)
 ![code style](https://img.shields.io/badge/code_style-Black-black) 
 [![arXiv](https://img.shields.io/badge/arXiv-2111.00600-b31b1b.svg)](https://arxiv.org/abs/2111.00600)
 
