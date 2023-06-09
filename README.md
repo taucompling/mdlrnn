@@ -36,6 +36,21 @@ $ python main.py --simulation an_bn_cn -n 16
 * Final and intermediate solutions are saved to the `networks` sub-directory, both as `pickle` and in visual `dot` format.
 
 
+## PyTorch conversion
+
+Converting a network trained using the genetic algorithm to a PyTorch module:
+
+```
+import torch_conversion
+
+with open("networks/net.pickle", "rb") as f:
+    net = pickle.load(f)
+
+torch_net = torch_conversion.mdlnn_to_torch(net)
+```
+
+Then fine-tune and evaluate using [MDLRNN-torch](https://github.com/0xnurl/mdlrnn-torch).
+
 ## Parallelization
 
 Native Python multiprocessing is used by default. To use MPI, change `migration_channel` to `mpi` in `simulations.py`.
